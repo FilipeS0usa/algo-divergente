@@ -32,4 +32,5 @@ Criei um ficheito .py chamado codigoalmeida.py para ser revisto pelos colegas de
 Fiz commit com esse comentário.
 
 Fiz mudanças no ficheiro codigoalmeida.py e voltei a dar commit.
+Nova feature no codigoalmeida.py e novo commit.
 ## João Correia
