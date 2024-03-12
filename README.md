@@ -1,8 +1,4 @@
 # algo-divergente
-Para clonar este repositório foi utilizado o seguinte comando:
-```git
-git clone https://github.com/FilipeS0usa/algo-divergente.git
-```
 ## Descrição e Objectivo
 
 Este projecto ser utilizado para estudar como é que o git/github funciona e treinar comandos GIT.
@@ -25,6 +21,11 @@ Os tópicos abordados neste projecto são:
 
 
 ## Initial commit
+
+Para clonar este repositório foi utilizado o seguinte comando:
+```git
+git clone https://github.com/FilipeS0usa/algo-divergente.git
+```
 Para o primeiro commit foram utilizados os seguintes comandos:
 
 ```bash
