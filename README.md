@@ -31,4 +31,8 @@ Criei um ficheito .py chamado codigoalmeida.py para ser revisto pelos colegas de
 
 Fiz commit com esse comentário.
 
+
+
+
+Fiz git cherry-pick de uma das versões para o main.
 ## João Correia
