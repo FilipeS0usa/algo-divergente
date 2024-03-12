@@ -30,4 +30,6 @@ A partir do fork que fiz no repositório do Silva.
 Criei um ficheito .py chamado codigoalmeida.py para ser revisto pelos colegas de grupo.
 
 Fiz commit com esse comentário.
+
+Fiz mudanças no ficheiro codigoalmeida.py e voltei a dar commit.
 ## João Correia
