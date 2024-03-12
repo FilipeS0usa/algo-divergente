@@ -80,7 +80,12 @@ git tag v1.0 5541754
 - Por fim falta ainda usar o rebase, para isso vamos criar um novo branch thisIsRebase, fazer mais uns commits e fazer o respectivo rebase:
 ```bash
 git checkout -b thisIsRebase
-
+git add README.md
+git commit -m "Updated README.md"
+git add main.py
+git commit -m "Added new feature to main.py"
+git rebase main
+git rebase thisIsRebase
 ```
 
 
