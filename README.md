@@ -27,8 +27,18 @@ git clone https://github.com/Grilinux/algo-divergente.git
 -A partir do fork que fiz no repositório do Silva.
 -Criei um ficheiro .py chamado codigoalmeida.py para ser revisto pelos colegas de grupo.
 -Fiz commit com esse comentário.
+
 -Fiz mudanças no ficheiro codigoalmeida.py e voltei a dar commit.
 -Nova feature no codigoalmeida.py e novo commit.
--Fiz `git cherry-pick b2e2f67` de uma das versões para o main.
--Resolvi conflitos no merge 
+
+-Fiz `git checkout main` para puder fazer git cherry-pick de uma das versões do branch em que estava a trabalhar.
+-Fiz `git cherry-pick b2e2f67` de uma das versões para o main. Houve conflitos que foram resolvidos eliminando as linhas sobrepostas entre as duas versões e depois de resolvidos os conflitos fiz `git cherry-pick continue`.
+
+-Fiz `git merge` entre os dois branchs.Resolvi conflitos no merge (eliminando as linhas que estavam sobrepostas entre as duas versões) 
+-Depois de resolvidos os conflitos fiz `git add .` e `git commit -m "mensagem"`.
+
+-Fiz um novo branch`git checkout -b novinho_brunch_almeida`
+-Criei um novo ficheiro .py nesse branch chamado novinhocodigoalmeida.py
+-dei commit desse ficheiro
+-Vou atualizando a docmentação a medida que faço alguma coisa nova
 ## João Correia
