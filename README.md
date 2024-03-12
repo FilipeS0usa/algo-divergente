@@ -45,12 +45,12 @@ git checkout main
 git cherry-pick 178d02b
 ```
 Devido ao ficheiro main.py não existir no branch main, houve um conflito. Para resolver este conflito foram efectuados os seguintes comandos:
-1 - Primeiramente verificou-se se haviam algumas alterações nos ficheiros envolvidos no cherry-pick
+1. Primeiramente verificou-se se haviam algumas alterações nos ficheiros envolvidos no cherry-pick
 ```bash
 cat main.py
 cat README.md
 ```
-2 - Como não havia nenhuma alteração nos ficheiros fez-se o seguinte comando para resolver o conflicto:
+2. Como não havia nenhuma alteração nos ficheiros fez-se o seguinte comando para resolver o conflicto:
 ```bash
 git add .
 git cherry-pick --continue
@@ -62,16 +62,25 @@ git merge FilipeBranch
 
 Houve conflictos ao fazer o merge.
 
-2. Para ver quais eram os conflictos fez-se os seguintes comandos
+1. Para ver quais eram os conflictos fez-se os seguintes comandos
 
 ```bash 
 cat main.py
 cat README.py
 ```
-1. Para resolver os conflictos então editou-se o que era suposto editar e fez-se os seguintes comandos:
+2. Para resolver os conflictos então editou-se o que era suposto editar e fez-se os seguintes comandos:
 ```bash
 git add .
 git commit -m "Solved merge conflict"
+```
+- Agora esta versão será a versão 1.0 do projecto. Ficando assim mais fácil de acompanhar as versões do projecto, para isso fez-se o seguinte comando:
+```bash
+git tag v1.0 5541754
+```
+- Por fim falta ainda usar o rebase, para isso vamos criar um novo branch thisIsRebase, fazer mais uns commits e fazer o respectivo rebase:
+```bash
+git checkout -b thisIsRebase
+
 ```
 
 
