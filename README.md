@@ -20,4 +20,12 @@ git push para enviar para o repositório remoto
 
 ## Hugo Almeida
 
+Para clonar este repositório foi utilizado o seguinte comando:
+```git
+git clone https://github.com/Grilinux/algo-divergente.git
+```
+
+A partir do fork que fiz no repositório do Silva.
+
+
 ## João Correia
