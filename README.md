@@ -92,3 +92,6 @@ git rebase thisIsRebase main
 ## Hugo Almeida
 
 ## João Correia
+
+# Duvidas
+- As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
