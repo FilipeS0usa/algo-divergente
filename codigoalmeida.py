@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-#isto é um codigo em python super complexo
-
-print("olá gatxinha! <3")
-=======
-	
+#isto é um codigo extremamente complexo	
 print("olá gatxinha! <3")
 import random
 
@@ -18,4 +13,4 @@ frase = f"O meu amigo Silva é {adjetivo_aleatorio}."
 
 # Imprime a frase
 print(frase)
->>>>>>> brunch_do_Almeida
+
