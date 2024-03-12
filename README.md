@@ -17,6 +17,18 @@ git push para enviar para o repositório remoto
 
 ## Filipe Silva
 
+Foi criado um novo branch chamado FilipeBranch
+
+```bash
+git checkout -b "FilipeBranch"
+```
+Adicionei o ficheiro main.py, adicionei e fiz commit.
+
+```bash
+git add .
+git commit -m "Added main.py and updated README.py"
+git push
+```
 
 ## Hugo Almeida
 
