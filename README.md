@@ -3,6 +3,27 @@ Para clonar este repositório foi utilizado o seguinte comando:
 ```git
 git clone https://github.com/FilipeS0usa/algo-divergente.git
 ```
+## Descrição e Objectivo
+
+Este projecto ser utilizado para estudar como é que o git/github funciona e treinar comandos GIT.
+
+Os tópicos abordados neste projecto são:
+- Utilização e funcionamento de um fork
+- Funcionamento do git clone
+- Funcionamento base de git localmente
+    - git add
+    - git commit
+- Utilização de branch ("ramos")
+- Utilização de várias maneiras de manuseamento de commits:
+    - git merge
+    - git cherry-pick
+    - git rebase
+- Resolução de conflictos
+- Utilização de TAGs para facilmente identificar commits específicos
+- Utilização de Push e Pull requests
+- Trabalho em equipa
+
+
 ## Initial commit
 Para o primeiro commit foram utilizados os seguintes comandos:
 
@@ -93,5 +114,5 @@ git rebase thisIsRebase main
 
 ## João Correia
 
-# Duvidas
+## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
