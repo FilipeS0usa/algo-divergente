@@ -24,15 +24,11 @@ Para clonar este repositório foi utilizado o seguinte comando:
 ```git
 git clone https://github.com/Grilinux/algo-divergente.git
 ```
-
-A partir do fork que fiz no repositório do Silva.
-
-Criei um ficheito .py chamado codigoalmeida.py para ser revisto pelos colegas de grupo.
-
-Fiz commit com esse comentário.
-
-
-
-
-Fiz git cherry-pick de uma das versões para o main.
+-A partir do fork que fiz no repositório do Silva.
+-Criei um ficheiro .py chamado codigoalmeida.py para ser revisto pelos colegas de grupo.
+-Fiz commit com esse comentário.
+-Fiz mudanças no ficheiro codigoalmeida.py e voltei a dar commit.
+-Nova feature no codigoalmeida.py e novo commit.
+-Fiz `git cherry-pick b2e2f67` de uma das versões para o main.
+-Resolvi conflitos no merge 
 ## João Correia
