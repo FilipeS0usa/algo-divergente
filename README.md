@@ -109,7 +109,7 @@ git commit -m "Added new feature to main.py"
 git rebase thisIsRebase main
 ```
 
-
+![gitlog](/imgs/git_log.png)
 
 ## Hugo Almeida
 
