@@ -52,4 +52,7 @@ git clone https://github.com/Grilinux/algo-divergente.git
 - Introduzi uma tag num dos commits antigos como sendo a versão 1.0 do programa
 `git tag v1.0 755c038`
 
+- Alterei o ficheito README.md no branch novinho_ brunch _almeida então tive que voltar ao main e fazer git merge
+`git checkout main | git merg novinho_brunch_almeida`
+
 ## João Correia
