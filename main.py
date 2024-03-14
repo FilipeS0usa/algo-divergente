@@ -1,3 +1,4 @@
+from featurecorreia import hello_correia
 print("Hello GIT!")
 print("This is a new commit!")
 print("Yet another update!!")
@@ -8,3 +9,4 @@ def hello():
 
 hello()
 
+hello_correia()
