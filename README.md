@@ -115,5 +115,50 @@ git rebase thisIsRebase main
 
 ## João Correia
 
+Para colonar este repositório foi utilizado o comando:
+```bash	
+git clone https://github.com/0Correia/algo-divergente.git
+```
+Foi cria do um novo branch chamado bcorreia com o seguinte comando:
+```bash
+git checkout -b "bcorreia"
+```
+De seguida criei uma novo ficheiro chamado featurecorreia.py e fiz alterações no ficheiro existente "main.py"
+Depois das alterções fiz commit:
+```bash
+git add main.py
+git add featurecorreia.py
+git commit -m "Add featurecorreia.py and updated main.py"
+```
+Para além disso tambem foi atualizado o README.md (Este comando vai ser utilizado frequentemente ao longo deste relatorio)
+```bash
+git add README.md
+git commit -m "Updated README.md"
+```
+O ficheiro featurecorreia.py sofreu uma alteração
+```bash
+git add featurecorreia.py
+git commit -m "Updated feature"
+```
+Voltou-se ao branch main, e utilizou-se o cherry-pick para escolher um commit especifico para ser aplicado no main. 
+Neste caso escolheu-se o update feature:
+```bash
+git checkout main
+git cherry-pick 70ced99
+```
+Devido ao ficheiro featurecorreia.py não existir no branch main, houve um conflito. 
+Para resolver este conflito foram efectuados os seguintes comandos:
+1. Primeiramente verificou-se se haviam algumas alterações nos ficheiros envolvidos no cherry-pick
+```bash
+cat main.py
+cat README.md
+```
+2. Como não havia nenhuma alteração nos ficheiros fez-se o seguinte comando para resolver o conflicto:
+
+```bash
+git add .
+git cherry-pick --continue
+````
+De seguida fiz o merge com o bcorreia
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
