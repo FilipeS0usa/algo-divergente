@@ -177,8 +177,20 @@ git add .
 git commit -m "Solved merge conflict"
 ```
 
+- Agora esta versão será a versão 1.0 do projecto. Ficando assim mais fácil de acompanhar as versões do projecto, para isso fez-se o >
+```bash
+git tag v1.0 edb75e7 
+```
+- Por fim falta ainda usar o rebase, para isso vamos criar um novo branch thisIsRebase, fazer mais uns commits e fazer o respectivo r>
+```bash
+git checkout -b thisIsRebase
+git add README.md
+git commit -m "Updated README.md"
+git add main.py
+git commit -m "Added new feature to main.py"
+git rebase thisIsRebase main
+```
 
 
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
-
