@@ -148,6 +148,8 @@ git clone https://github.com/Grilinux/algo-divergente.git
 - Alterei o ficheito README.md no branch novinho_ brunch _almeida então tive que voltar ao main e fazer git merge
 `git checkout main | git merg novinho_brunch_almeida`
 
+![gitlog_almeida](/imgs/git_log_almeida.png)
+
 ## João Correia
 
 ## Duvidas
