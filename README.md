@@ -159,6 +159,26 @@ cat README.md
 git add .
 git cherry-pick --continue
 ````
-De seguida fiz o merge com o bcorreia
+De seguida fiz o merge do branch bcorreia com o main:
+```bash
+git merge bcorreia
+```
+Houve conflictos ao fazer o merge.
+
+1. Para ver quais eram os conflictos fez-se os seguintes comandos
+
+```bash
+cat main.py
+cat README.py
+```
+2. Para resolver os conflictos então editou-se o que era suposto editar e fez-se os seguintes comandos:
+```bash
+git add .
+git commit -m "Solved merge conflict"
+```
+
+
+
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
+
