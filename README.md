@@ -135,5 +135,9 @@ Para além disso tambem foi atualizado o README.md (Este comando vai ser utiliza
 git add README.md
 git commit -m "Updated README.md"
 ```
+O ficheiro featurecorreia.py sofreu uma alteração
+```bash
+git add featurecorreia.py
+git commit -m "Updated feature"
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
