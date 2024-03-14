@@ -115,5 +115,25 @@ git rebase thisIsRebase main
 
 ## João Correia
 
+Para colonar este repositório foi utilizado o comando:
+```bash	
+git clone https://github.com/0Correia/algo-divergente.git
+```
+Foi cria do um novo branch chamado bcorreia com o seguinte comando:
+```bash
+git checkout -b "bcorreia"
+```
+De seguida criei uma novo ficheiro chamado featurecorreia.py e fiz alterações no ficheiro existente "main.py"
+Depois das alterções fiz commit:
+```bash
+git add main.py
+git add featurecorreia.py
+git commit -m "Add featurecorreia.py and updated main.py"
+```
+Para além disso tambem foi atualizado o README.md (Este comando vai ser utilizado frequentemente ao longo deste relatorio)
+```bash
+git add README.md
+git commit -m "Updated README.md"
+```
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
