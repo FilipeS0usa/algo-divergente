@@ -150,5 +150,83 @@ git clone https://github.com/Grilinux/algo-divergente.git
 
 ## João Correia
 
+Para colonar este repositório foi utilizado o comando:
+```bash	
+git clone https://github.com/0Correia/algo-divergente.git
+```
+Foi cria do um novo branch chamado bcorreia com o seguinte comando:
+```bash
+git checkout -b "bcorreia"
+```
+De seguida criei uma novo ficheiro chamado featurecorreia.py e fiz alterações no ficheiro existente "main.py"
+Depois das alterções fiz commit:
+```bash
+git add main.py
+git add featurecorreia.py
+git commit -m "Add featurecorreia.py and updated main.py"
+```
+Para além disso tambem foi atualizado o README.md (Este comando vai ser utilizado frequentemente ao longo deste relatorio)
+```bash
+git add README.md
+git commit -m "Updated README.md"
+```
+O ficheiro featurecorreia.py sofreu uma alteração
+```bash
+git add featurecorreia.py
+git commit -m "Updated feature"
+```
+Voltou-se ao branch main, e utilizou-se o cherry-pick para escolher um commit especifico para ser aplicado no main. 
+Neste caso escolheu-se o update feature:
+```bash
+git checkout main
+git cherry-pick 70ced99
+```
+Devido ao ficheiro featurecorreia.py não existir no branch main, houve um conflito. 
+Para resolver este conflito foram efectuados os seguintes comandos:
+1. Primeiramente verificou-se se haviam algumas alterações nos ficheiros envolvidos no cherry-pick
+```bash
+cat main.py
+cat README.md
+```
+2. Como não havia nenhuma alteração nos ficheiros fez-se o seguinte comando para resolver o conflicto:
+
+```bash
+git add .
+git cherry-pick --continue
+````
+De seguida fiz o merge do branch bcorreia com o main:
+```bash
+git merge bcorreia
+```
+Houve conflictos ao fazer o merge.
+
+1. Para ver quais eram os conflictos fez-se os seguintes comandos
+
+```bash
+cat main.py
+cat README.py
+```
+2. Para resolver os conflictos então editou-se o que era suposto editar e fez-se os seguintes comandos:
+```bash
+git add .
+git commit -m "Solved merge conflict"
+```
+
+- Agora esta versão será a versão 1.0 do projecto. Ficando assim mais fácil de acompanhar as versões do projecto, para isso fez-se o >
+```bash
+git tag v1.0 edb75e7 
+```
+- Por fim falta ainda usar o rebase, para isso vamos criar um novo branch thisIsRebase, fazer mais uns commits e fazer o respectivo r>
+```bash
+git checkout -b thisIsRebase
+git add README.md
+git commit -m "Updated README.md"
+git add main.py
+git commit -m "Added new feature to main.py"
+git rebase thisIsRebase main
+```
+
+![gitlogcorreia](/imgs/git_log_correia.png)
+
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
