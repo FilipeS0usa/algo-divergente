@@ -230,5 +230,9 @@ git rebase thisIsRebase main
 
 ![gitlogcorreia](/imgs/git_log_correia.png)
 
+## Final
+
+![gitlogtotal](/imgs/git_log_total.png)
+
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
