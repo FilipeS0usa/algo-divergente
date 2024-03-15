@@ -191,6 +191,7 @@ git commit -m "Added new feature to main.py"
 git rebase thisIsRebase main
 ```
 
+![gitlogcorreia](/imgs/git_log_correia.png)
 
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
