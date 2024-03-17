@@ -239,5 +239,5 @@ Aqui está como fica depois de juntar todos os repositórios.
 ## Duvidas
 - As Tags e os Branchs não passam para o repositório remoto, como é que se faz?
 - Se nós estamos a fazer fork dos trabalhos, não acaba por simular nós a contribuirmos para um repositório de outra pessoa?
-- Se estamos só a contribuir para um repositório de outra pessoa, não estamos a simular um cenário de um  equipa de programação onde há um trabalho centrado no mesmo repositório e não em forks do mesmo correto? Ou as equipas de programação fazem as contribuições para os projectos desta maneira (criam um fork, trabalham nesse fork e só depois é que fazem um pull request)?
+- Se estamos só a contribuir para um repositório de outra pessoa, então não estamos a simular um cenário de uma equipa de programação, onde há um trabalho centrado no mesmo repositório e não em forks do mesmo, correto? Ou as equipas de programação fazem as contribuições para os projectos desta maneira (criam um fork, trabalham nesse fork e só depois é que fazem um pull request)?
   
