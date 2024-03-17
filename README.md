@@ -146,7 +146,7 @@ git clone https://github.com/Grilinux/algo-divergente.git
 `git tag v1.0 755c038`
 
 - Alterei o ficheito README.md no branch novinho_ brunch _almeida então tive que voltar ao main e fazer git merge
-`git checkout main | git merg novinho_brunch_almeida`
+`git checkout main | git merge novinho_brunch_almeida`
 
 ![gitlog_almeida](/imgs/git_log_almeida.png)
 
